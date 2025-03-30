@@ -1,28 +1,23 @@
 <?xml version="1.0"?>
 <TriggernometryExport PluginVersion="1.2.0.7">
-  <ExportedFolder Id="ead4ee9d-ff5d-41a8-81cf-d08ebcece419" Name="Raids" Enabled="true">
+  <ExportedFolder Id="e005dc87-5004-4abd-b4ad-dad157ba013d" Name="Dawntrail" Enabled="false">
     <Folders>
-      <Folder Id="e005dc87-5004-4abd-b4ad-dad157ba013d" Name="Dawntrail" Enabled="true">
+      <Folder Id="c5739571-5912-4cda-9c68-6610f6c62fd1" Name="7.2" Enabled="true">
         <Folders>
-          <Folder Id="c5739571-5912-4cda-9c68-6610f6c62fd1" Name="7.2" Enabled="true">
-            <Folders>
-              <Folder Id="54038ca6-0b45-4297-90b5-a49f405d7b75" Name="M5S" Enabled="true">
-                <Folders />
-                <Triggers />
-              </Folder>
-              <Folder Id="1fdc1d12-6ed6-4519-ae49-54e4f65a7479" Name="M6S" Enabled="true">
-                <Folders />
-                <Triggers />
-              </Folder>
-              <Folder Id="cf831009-283a-4693-8f53-2ffb3352f513" Name="M7S" Enabled="true">
-                <Folders />
-                <Triggers />
-              </Folder>
-              <Folder Id="3c9e9258-7e84-4498-b177-b5f9bcab18d8" Name="M8S" Enabled="true">
-                <Folders />
-                <Triggers />
-              </Folder>
-            </Folders>
+          <Folder Id="54038ca6-0b45-4297-90b5-a49f405d7b75" Name="M5S" Enabled="true">
+            <Folders />
+            <Triggers />
+          </Folder>
+          <Folder Id="1fdc1d12-6ed6-4519-ae49-54e4f65a7479" Name="M6S" Enabled="true">
+            <Folders />
+            <Triggers />
+          </Folder>
+          <Folder Id="cf831009-283a-4693-8f53-2ffb3352f513" Name="M7S" Enabled="true">
+            <Folders />
+            <Triggers />
+          </Folder>
+          <Folder Id="3c9e9258-7e84-4498-b177-b5f9bcab18d8" Name="M8S" Enabled="true">
+            <Folders />
             <Triggers />
           </Folder>
         </Folders>
