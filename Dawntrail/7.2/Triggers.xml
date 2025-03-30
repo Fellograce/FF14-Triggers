@@ -24,6 +24,25 @@
         <Triggers />
       </Folder>
     </Folders>
-    <Triggers />
+    <Triggers>
+      <Trigger Enabled="true" Name="The Ram's Voice - OUT" Id="f3db4bec-bfe6-4339-84af-3e7bf72e4996" RegularExpression="The dhorme chimera begins casting The Ram's Voice.">
+        <Actions>
+          <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go out" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="The Dragon's Voice - IN" Id="37c4a59a-dcbf-4aaf-84e9-ba190c2bf04d" RegularExpression="The dhorme chimera begins casting The Dragon's Voice.">
+        <Actions>
+          <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go in" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+    </Triggers>
   </ExportedFolder>
 </TriggernometryExport>
