@@ -34,7 +34,7 @@
         <Condition Enabled="false" Grouping="Or" />
         <Conditions />
       </Trigger>
-      <Trigger Enabled="true" Name="The Dragon's Voice - IN" Id="37c4a59a-dcbf-4aaf-84e9-ba190c2bf04d" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|53A\|">
+      <Trigger Enabled="true" Name="The Dragon's Voice - IN" Id="37c4a59a-dcbf-4aaf-84e9-ba190c2bf04d" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|451\|">
         <Actions>
           <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Go in" ActionType="UseTTS">
             <Condition Enabled="false" Grouping="Or" />
