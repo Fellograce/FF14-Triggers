@@ -29,7 +29,17 @@
           </Folder>
           <Folder Id="1fdc1d12-6ed6-4519-ae49-54e4f65a7479" Name="M6S" Enabled="true">
             <Folders />
-            <Triggers />
+            <Triggers>
+              <Trigger Enabled="true" Name="Sticky Mousse - Spread" Id="2ad66f1b-e476-4c74-a837-ecbae5a74b3c" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|A695\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Sticky Mousse Spread" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
           </Folder>
           <Folder Id="cf831009-283a-4693-8f53-2ffb3352f513" Name="M7S" Enabled="true">
             <Folders />
