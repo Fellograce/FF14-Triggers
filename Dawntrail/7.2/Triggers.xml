@@ -6,7 +6,26 @@
         <Folders>
           <Folder Id="54038ca6-0b45-4297-90b5-a49f405d7b75" Name="M5S" Enabled="true">
             <Folders />
-            <Triggers />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="B-Side - Light Party" Id="53d1a3c8-f121-4897-8123-31effa7d6e87" RegularExpression="Dancing Green readies Flip to B-side.">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Light Parties" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="A-Side - Roles" Id="009955d4-98b3-4e5e-9873-bdfd0e1e727c" RegularExpression="Dancing Green readies Flip to A-side.">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Roles" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
           </Folder>
           <Folder Id="1fdc1d12-6ed6-4519-ae49-54e4f65a7479" Name="M6S" Enabled="true">
             <Folders />
