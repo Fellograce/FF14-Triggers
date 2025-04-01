@@ -39,6 +39,33 @@
                 <Condition Enabled="false" Grouping="Or" />
                 <Conditions />
               </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Mousse Mural - AoE" Id="c69341c0-1b54-4562-a7f4-40904074b948" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|A6BC\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="AoE" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Color Clash - Pairs" Id="a010b6ee-a940-431b-9aa5-2fc0ffe6bce6" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|A68D\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Pairs" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Color Clash - Light Party" Id="886ca5fb-ab07-424b-afc5-a180c391f438" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|A68B\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Light Party" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
             </Triggers>
           </Folder>
           <Folder Id="cf831009-283a-4693-8f53-2ffb3352f513" Name="M7S" Enabled="true">
