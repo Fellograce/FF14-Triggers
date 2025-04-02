@@ -14,7 +14,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Source="FFXIVNetwork" Name="A-Side - Roles" Id="009955d4-98b3-4e5e-9873-bdfd0e1e727c" RegularExpression="Dancing Green readies Flip to A-side.">
                 <Actions>
@@ -23,7 +22,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -37,7 +35,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Source="FFXIVNetwork" Name="Mousse Mural - AoE" Id="c69341c0-1b54-4562-a7f4-40904074b948" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|A6BC\|">
                 <Actions>
@@ -46,7 +43,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Source="FFXIVNetwork" Name="Color Clash - Pairs" Id="a010b6ee-a940-431b-9aa5-2fc0ffe6bce6" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|A68D\|">
                 <Actions>
@@ -55,7 +51,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Source="FFXIVNetwork" Name="Color Clash - Light Party" Id="886ca5fb-ab07-424b-afc5-a180c391f438" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|A68B\|">
                 <Actions>
@@ -64,7 +59,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -74,7 +68,53 @@
           </Folder>
           <Folder Id="3c9e9258-7e84-4498-b177-b5f9bcab18d8" Name="M8S" Enabled="true">
             <Folders />
-            <Triggers />
+            <Triggers>
+              <Trigger Enabled="true" Name="Revolutionary Reign - Out" Id="4940b51c-b6ac-48b8-961e-d8d30133e28d" RegularExpression="The Howling Blade readies Revolutionary Reign.">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Out" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Eminent Reign - In" Id="f59b6af7-d316-43ad-95e8-6c23b53ba017" RegularExpression="The Howling Blade readies Eminent Reign.">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="In" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Stonefang" Id="a1dd9266-cbfc-44dd-bd8c-6026c7dbde37" RegularExpression="The Howling Blade uses Stonefang.">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Out and spread" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Extraplanar Pursuit - AoE" Id="6482f102-b773-4ecf-83d7-1ca94b542a42" RegularExpression="The Howling Blade readies Extraplanar Pursuit.">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="AoE" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Windfang" Id="2c2903f5-3fd7-4f21-8e7c-fa310c71eb5a" RegularExpression="The Howling Blade readies Windfang.">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="In and pairs" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
           </Folder>
         </Folders>
         <Triggers />
