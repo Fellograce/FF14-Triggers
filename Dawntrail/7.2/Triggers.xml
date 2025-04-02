@@ -71,7 +71,7 @@
             <Triggers>
               <Trigger Enabled="true" Name="Revolutionary Reign - Out" Id="4940b51c-b6ac-48b8-961e-d8d30133e28d" RegularExpression="The Howling Blade readies Revolutionary Reign.">
                 <Actions>
-                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Out" ActionType="UseTTS">
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Chariot" ActionType="UseTTS">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
                 </Actions>
@@ -80,14 +80,14 @@
               </Trigger>
               <Trigger Enabled="true" Name="Eminent Reign - In" Id="f59b6af7-d316-43ad-95e8-6c23b53ba017" RegularExpression="The Howling Blade readies Eminent Reign.">
                 <Actions>
-                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="In" ActionType="UseTTS">
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Normal Mode" ActionType="UseTTS">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
                 <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="Stonefang" Id="a1dd9266-cbfc-44dd-bd8c-6026c7dbde37" RegularExpression="The Howling Blade uses Stonefang.">
+              <Trigger Enabled="true" Name="Stonefang" Id="a1dd9266-cbfc-44dd-bd8c-6026c7dbde37" RegularExpression="The Howling Blade readies Stonefang.">
                 <Actions>
                   <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Out and spread" ActionType="UseTTS">
                     <Condition Enabled="false" Grouping="Or" />
