@@ -76,7 +76,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Eminent Reign - In" Id="f59b6af7-d316-43ad-95e8-6c23b53ba017" RegularExpression="The Howling Blade readies Eminent Reign.">
                 <Actions>
@@ -85,7 +84,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Stonefang" Id="a1dd9266-cbfc-44dd-bd8c-6026c7dbde37" RegularExpression="The Howling Blade readies Stonefang.">
                 <Actions>
@@ -94,7 +92,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Extraplanar Pursuit - AoE" Id="6482f102-b773-4ecf-83d7-1ca94b542a42" RegularExpression="The Howling Blade readies Extraplanar Pursuit.">
                 <Actions>
@@ -103,11 +100,18 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Windfang" Id="2c2903f5-3fd7-4f21-8e7c-fa310c71eb5a" RegularExpression="The Howling Blade readies Windfang.">
                 <Actions>
                   <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="In and pairs" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Head Test" Id="f30e2bec-1c37-4f59-8351-93989370b0ad" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|A78D\|">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Careful dragon heads" ActionType="UseTTS">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
                 </Actions>
